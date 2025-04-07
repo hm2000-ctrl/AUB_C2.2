@@ -1,7 +1,7 @@
 # Script for loading the mode
 from flask import Flask
 from transformers import AutoImageProcessor, AutoModelForSemanticSegmentation
-from vision_api import create_routes
+from flask_api import create_routes
 
 
 model_name = "nvidia/segformer-b0-finetuned-ade-512-512"
